@@ -1,0 +1,22 @@
+{
+    "nodes": [
+      {"id": "N", "group": 1},
+      {"id": "M", "group": 1},
+      {"id": "C", "group": 1},
+      {"id": "Security", "group": 2},
+      {"id": "Network", "group": 1},
+      {"id": "Managed", "group": 1},
+      {"id": "Cloud", "group": 1},
+      {"id": "Consantuncy", "group": 3,
+    ],
+    "links": [
+      {"source": "N", "target": "Security", "value": 1},
+      {"source": "M", "target": "Security", "value": 2},
+      {"source": "C", "target": "Security", "value": 3},
+      {"source": "Security", "target": "Consultancy", "value": 6},
+      {"source": "Network", "target": "Security", "value": 1},
+      {"source": "Managed", "target": "Security", "value": 2},
+      {"source": "Cloud", "target": "Security", "value": 3},
+      {"source": "Security", "target": "Consultancy", "value": 6},
+    ]
+}
